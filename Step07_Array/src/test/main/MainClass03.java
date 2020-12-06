@@ -22,6 +22,7 @@ public class MainClass03 {
  * 			//names.length의 크기를 리턴해준다.
 			이게 뭐지 왜 적었지?
 			String tmp=names[i];
+			"Temporary(일시적인, 임시적인)"
 			
 			//syso을 적어주지 않으면 숫자만 쌓이다가 사라진다.
 			 디버그에도 아무 일이 일어나지 않음.

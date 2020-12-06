@@ -78,12 +78,12 @@ public class MemberDto {
 		this.addr = addr;
 	}
 	
-//	필드의 num값을 리턴하는 setter 메소드
+//	필드의 num값을 리턴하는 getter 메소드
 //	public int getNum() {
 //		return num;
 //	}
 //
-//	필드에 num값을 수정하는 getter 메소드
+//	필드에 num값을 수정하는 setter 메소드
 //	public void setNum(int num) {
 //		this.num = num;
 //	}

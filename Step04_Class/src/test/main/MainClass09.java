@@ -25,7 +25,7 @@ public class MainClass09 {
 //		com1.playGame();
 //		com1.sendEmail("oli999@naver.com");
 		
-		// 강사님 풀이 1
+		// 강사님 풀이 1 (1회성으로 사용할 때)
 		Computer com1=new Computer(new Cpu(), new Memory(), new HardDisk());
 		com1.playGame();
 		com1.sendEmail("oli999@naver.com");

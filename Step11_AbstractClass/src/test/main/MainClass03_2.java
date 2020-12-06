@@ -1,6 +1,5 @@
 package test.main;
 
-import test.mypac.MyWeapon;
 import test.mypac.RealWeapon;
 import test.mypac.Weapon;
 

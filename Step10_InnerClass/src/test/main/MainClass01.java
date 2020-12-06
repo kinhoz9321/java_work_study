@@ -11,12 +11,20 @@ public class MainClass01 {
 		 *  리턴되는 참조값을 m1 이라는 지역 변수에 담아 보세요.
 		 */
 		
-		Zoo z=new Zoo();
-		Monkey m1=z.getMonkey();
+		Zoo z1=new Zoo();
+		Monkey m1=z1.getMonkey();
 		m1.say();
 		
-		Cat c1=z.getCat();
+		Monkey z2=new Zoo().getMonkey();
+		z2.say();
+		
+		Zoo z3=new Zoo();
+		Cat c1=z3.getCat();
 		c1.say();
+		
+		Cat c2=new Zoo().getCat();
+		c2.say();
+
 	}
 	
 	

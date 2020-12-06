@@ -23,5 +23,11 @@ public class MainClass02 {
 	public static void useWeapon(Weapon w) {
 		w.prepare();
 		w.attack();
+		
+		/*
+		 * Weapon 을 import 해왔기 때문에 
+		 * w.prepare();
+		 * w.attack();을 호출할 수 있다.
+		 */
 	}
 }

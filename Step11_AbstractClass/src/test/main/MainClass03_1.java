@@ -1,6 +1,5 @@
 package test.main;
 
-import test.mypac.MyWeapon;
 import test.mypac.RealWeapon;
 import test.mypac.Weapon;
 
@@ -16,6 +15,7 @@ public class MainClass03_1 {
 		
 	}
 	
+	//main 메소드
 	public static void main(String[] args) {
 		
 		//Local Inner Class
@@ -28,16 +28,17 @@ public class MainClass03_1 {
 		}
 		
 		Weapon w1=new Sword();
-		useWeapon(w1);
+		MainClass03_1.useWeapon(w1);
 		
 		Weapon w2=new AirPlane();
-		useWeapon(w2);
+		useWeapon(w2);//MainClass03_1 생략
 		
 		//External Class
 		Weapon w3=new RealWeapon();
-		useWeapon(w3);
+		useWeapon(w3);//MainClass03_1 생략
 	}
 	
+	//static 메소드
 	public static void useWeapon(Weapon w) {
 		w.prepare();
 		w.attack();
