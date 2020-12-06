@@ -59,7 +59,7 @@ public class MainFrame4 extends JFrame{
 	}
 	
 	public static void main(String[] args) {
-		MainFrame4 f=new MainFrame4("메인 프레임3");
+		MainFrame4 f=new MainFrame4("메인 프레임4");
 		f.setBounds(100, 100, 500, 300);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setVisible(true);

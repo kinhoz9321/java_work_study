@@ -3,6 +3,8 @@ package test.frame02;
  * JFrame 상속받고
  * *필드에 ActionListener 람다식으로 생성*
  * 생성자에서 버튼에 ActionListener 등록 5
+ * 
+ * 람다식 생성이 특이하니 주의깊게 보길 바람.
  */
 import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
