@@ -1,4 +1,4 @@
-package test.main;
+package test.frame;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
