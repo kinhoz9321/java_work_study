@@ -20,8 +20,6 @@ public class MainClass06 {
 		useCalculator(divide);
 		useCalculator((a,b)->a/b);
 		
-		
-		
 	}
 	public static void useCalculator(Calculator cal) {
 		double result=cal.exec(10, 20);
